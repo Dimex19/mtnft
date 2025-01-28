@@ -29,7 +29,7 @@ const Header: React.FC = () => {
 
     return (
         <Container>
-            <img src={Logo} alt="Logo" />
+            {/* <img src={Logo} alt="Logo" /> */}
             <Links>
                 <Link to="/" id='link'>Home</Link>
                 <Link to="/collections" id='link'>Collections</Link>

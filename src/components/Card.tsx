@@ -30,6 +30,22 @@ const Container = styled.div`
     background-color: white;
     margin-bottom: 30px;
 
+    @media (max-width: 1120px) {
+            width: 90%;
+    }
+    /* @media (max-width: 620px) {
+            transform: scale(1.2);
+            margin-bottom: 120px;
+    } */
+    
+    @media (max-width: 970px) {
+        width: 80%;
+    }
+    /* @media (max-width: 1050px) {
+        width: 80%;
+    } */
+    
+
     &:hover {
         width: 343px;
         height: 483px;
@@ -62,6 +78,7 @@ const Container = styled.div`
             color: #C2C2C6;
             font-size: 14px;
         }
+        
     }
     /* &:hover{
         background-color: green;

@@ -22,6 +22,7 @@ const Container = styled.div`
     color: white;
     max-width: 600px;
     margin: auto;
+    margin-top: 20px;
 
     h2 {
         /* border: 1px solid red; */

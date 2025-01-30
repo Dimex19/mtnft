@@ -57,10 +57,23 @@ const Container = styled.div`
     img {
         width: 75px;
         height: 36px;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        animation: scaleY 3s infinite;
 
         @media (max-width: 450px) {
             width: 63px;
             height: 24px;
+        }
+        @keyframes scaleY {
+            0% {
+                transform: scaleX(1);
+            }
+            50% {
+                transform: scaleX(1.5);
+            }
+            100% {
+                transform: scaleX(1);
+            }
         }
     }
 `;
@@ -76,7 +89,7 @@ const Links = styled.div`
         color: white;
     }
 
-    @media (max-width: 450px) {
+    @media (max-width: 780px) {
         display: none;
     }
 `;
@@ -84,7 +97,7 @@ const Links = styled.div`
 const HamContainer = styled.div`
     display: none;
 
-    @media (max-width: 450px) {
+    @media (max-width: 780px) {
         display: block;
         color: white;
         font-size: 24px;

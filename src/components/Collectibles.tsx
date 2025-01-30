@@ -23,18 +23,23 @@ export default Collectibles
 
 const Container = styled.div`
     background-color: black;
-    /* display: flex;
-    justify-content: space-between; */
     flex-wrap: wrap;
     display: grid;
     grid: auto / auto auto auto;
     padding: 50px;
+    border: 5px solid white;
 
-    @media (max-width: 450px) {
+    @media (max-width: 620px) {
         padding: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+    @media (max-width: 870px) {
+        grid: auto / auto auto;
+        margin: auto;
+    }
+    
+    
 `

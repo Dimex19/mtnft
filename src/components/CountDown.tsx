@@ -13,5 +13,5 @@ const CountDown:React.FC = ()=> {
 export default CountDown
 
 const Container = styled.div`
-    
+    border: 5px solid white;
 `

@@ -97,10 +97,14 @@ export default Marquee
 
 const MainContainer = styled.div`
     position: relative;
-    max-width: 100vw;
+    width: 100vw;
     overflow: hidden;
     flex-wrap: wrap;
     background-color: white;
+
+    /* @media (min-width: 450px) {
+        width: 100vw;
+    } */
 
     @keyframes scroll {
         0% {transform: translateX(0)};

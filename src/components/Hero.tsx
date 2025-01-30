@@ -26,16 +26,16 @@ const popIn = keyframes`
       transform: none;
     }
 `
-const rotate = keyframes`
-  0% {
-      opacity: 1;
-      transform: rotate(0deg);
-    }
-    100% {
-      opacity: 1;
-      transform: rotate(360deg);
-    }
-`
+// const rotate = keyframes`
+//   0% {
+//       opacity: 1;
+//       transform: rotate(0deg);
+//     }
+//     100% {
+//       opacity: 1;
+//       transform: rotate(360deg);
+//     }
+// `
 const Container = styled.div`
   position: relative;
   padding: 20px 50px;

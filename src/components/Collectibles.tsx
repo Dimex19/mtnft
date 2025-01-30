@@ -27,7 +27,7 @@ const Container = styled.div`
     display: grid;
     grid: auto / auto auto auto;
     padding: 50px;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 
     @media (max-width: 620px) {
         padding: 10px;

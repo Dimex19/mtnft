@@ -101,7 +101,7 @@ const Wrapper = styled.div`
     z-index: 100;
     /* margin: auto; */
     /* border: 2px solid white; */
-    animation: ${popIn} 1s ease-in 0.4s forwards;
+    animation: ${popIn} 1s ease-in 0.2s forwards;
 
     /* animation: rotate 5s  linear infinite; */
 

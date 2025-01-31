@@ -5,10 +5,12 @@ import Marquee from "../components/Marquee"
 import styled from "styled-components"
 import Newsletter from "../components/Newsletter"
 import Footer from "../components/Footer"
+import Header from "../components/Header"
 
 const Home = () => {
   return (
     <Container>
+        <Header/>
         <Hero/>
         <Marquee/>
         <CountDown/>

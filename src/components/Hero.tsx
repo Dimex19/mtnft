@@ -1,11 +1,9 @@
 import styled, { keyframes } from 'styled-components'
-import Header from './Header'
 import HeroImg from '../assets/images/illustration.png'
 
 const Hero:React.FC = () => {
   return (
     <Container>
-      <Header/>
       <Wrapper>
         <h1>Mountain NFT Collectibles</h1>
         <img src={HeroImg} alt="" />

@@ -52,7 +52,7 @@ const ConnectWallet: React.FC<ConnectWalletProps> = ({ setShowConnectWallet, set
             <div>No Announced Wallet Providers</div>
           )}
         </div>
-        <hr />
+        {/* <hr /> */}
         {/* <h2>{selectedWallet ? "Selected Wallet" : "No Wallet Selected"}</h2> */}
         {selectedWallet && (
           <div className="selectedWallet">
@@ -97,9 +97,12 @@ const Wrapper = styled.div`
   }
 
   .providers {
+    margin: auto;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
     gap: 10px;
+    max-width: 300px;
 
     img {
       width: 30px;
